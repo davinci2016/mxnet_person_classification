@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "person.py", line 108, in <module>
+    os.path.join(data_dir, '/train'))
+  File "/home/davinci/miniconda2/envs/gluon/lib/python3.6/site-packages/mxnet/gluon/data/vision/datasets.py", line 294, in __init__
+    self._list_images(self._root)
+  File "/home/davinci/miniconda2/envs/gluon/lib/python3.6/site-packages/mxnet/gluon/data/vision/datasets.py", line 300, in _list_images
+    for folder in sorted(os.listdir(root)):
+FileNotFoundError: [Errno 2] No such file or directory: '/train'
